@@ -2,7 +2,7 @@
 Portfólio criado apenas para treinamento pessoal (portfólio não oficial). Projeto não finalizado.
 
 Deploy do projeto:
-...link
+https://viniciuslima21.github.io/portfolioTreino/
 
 Para visualizar em seu computador use: 
 
