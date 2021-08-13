@@ -1,0 +1,102 @@
+$blue: #2671E2;
+$black: #202020;
+$grey: #454545;
+$background: #fff;
+$secondBackground: #fafcfe;
+
+/* BODY */
+body {
+    font-family: 'Montserrat';
+}
+
+img {
+    image-resolution: from-image 300dpi;
+}
+
+/* FONTS */
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    /* EXTRA-BOLD */
+    src: url('../libs/fonts/Montserrat-ExtraBold.ttf')
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    /* BOLD */
+    src: url('../libs/fonts/Montserrat-Bold.ttf')
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    /* SEMI-BOLD */
+    src: url('../libs/fonts/Montserrat-SemiBold.ttf')
+}
+
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    /* REGULAR */
+    src: url('../libs/fonts/Montserrat-Regular.ttf')
+}
+
+p {
+    font-weight: 400;
+    font-size: 1em;
+    color: $grey;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 8vh;
+    color: $black;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 2.5em;
+    color: $black;
+    text-align: center;
+    margin: 1em 0;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 1.5em;
+    color: $black;
+}
+
+/* BUTTON */
+.button {
+    font-weight: 600;
+    color: #FAFAFA;
+    background: $blue;
+    text-decoration: none;
+    padding: 12px 32px;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px rgba(38, 113, 226, 0.7);
+
+
+    &:hover {
+        color: #FAFAFA;
+        filter: brightness(90%);
+        transition: .5s ease;
+    }
+}
+
+.button-outline {
+    background: none;
+    color: $blue;
+    box-shadow: 0px 5px 15px rgba(38, 113, 226, 0.3);
+
+    &:hover {
+        color: none;
+        background: $blue;
+        box-shadow: 0px 5px 15px rgba(38, 113, 226, 0.7);
+    }
+}
