@@ -2,12 +2,12 @@
 Portfólio criado apenas para treinamento pessoal (portfólio não oficial). Projeto não finalizado.
 
 Deploy do projeto:
-https://viniciuslima21.github.io/portfolioTreino/
+https://viniciuslimaan.github.io/portfolioTreino/
 
 Para visualizar em seu computador use: 
 
 ```
-git clone https://github.com/viniciuslima21/portfolioTreino.git
+git clone https://github.com/viniciuslimaan/portfolioTreino.git
 ```
 
 ## Tecnologias utilizadas
